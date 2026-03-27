@@ -1,0 +1,29 @@
+🔹 Basic if Questions (1–7)
+Check if a number is positive.
+Check if a number is divisible by 5.
+Check if a person is eligible to vote (age ≥ 18).
+Check if a number is even.
+Check if a character is a vowel.
+Check if a number is greater than 100.
+Check if a password length is at least 8 characters.
+🔹 if-else Questions (8–14)
+Check if a number is even or odd.
+Check if a number is positive or negative.
+Check if a student passed or failed (passing marks = 40).
+Compare two numbers and print the greater one.
+Check if a year is leap year or not.
+Check if a number is divisible by both 3 and 7.
+Check if a user is logged in or not (true/false).
+🔹 if-else-if Questions (15–20)
+Check if a number is positive, negative, or zero.
+Find the largest among three numbers.
+Assign grades based on marks:
+90+ → A
+75–89 → B
+50–74 → C
+Below 50 → Fail
+Check day of week using number (1–7 → Monday–Sunday).
+Create a simple calculator (+, -, *, / based on user input).
+Check salary bonus:
+Salary > 50k → 20% bonus
+30k–50k → 10% bonus
