@@ -27,3 +27,4 @@ Create a simple calculator (+, -, *, / based on user input).
 Check salary bonus:
 Salary > 50k → 20% bonus
 30k–50k → 10% bonus
+Below 30k → 5% bonus
