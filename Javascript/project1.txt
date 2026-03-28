@@ -1,0 +1,51 @@
+
+
+const URL = "https://jsonplaceholder.typicode.com/posts"
+
+
+const getData = async ()=>{
+  const res = await fetch(URL)
+   const data = await res.json()
+   return data;
+   
+}
+
+const root = document.querySelector(".root")
+setTimeout(async () => {
+
+  const posts = await  getData()
+  console.log(posts)
+
+posts.map((item,index)=>{
+
+   
+const box = document.createElement("div")
+box.classList.add("box")
+
+const id = document.createElement("div")
+id.classList.add("id")
+
+const id_circle = document.createElement("div")
+id_circle.classList.add("id_circle")
+id_circle.textContent = item.id
+
+
+const title = document.createElement("div")
+title.classList.add("title")
+title.textContent = item.title
+
+
+id.append(id_circle)
+
+box.append(id)
+box.append(title)
+
+root.append(box)
+    
+  })
+
+   
+}, 1000);
+
+
+
